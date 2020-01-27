@@ -15,7 +15,7 @@ const ControlPresupuesto = ({presupuesto, restante}) => {
     )
 }
 
-ControlPresupuesto.PropTypes = {
+ControlPresupuesto.propTypes = {
 
     presupuesto : PropTypes.number.isRequired,
     restante: PropTypes.number.isRequired

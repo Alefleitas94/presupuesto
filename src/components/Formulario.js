@@ -80,7 +80,7 @@ const Formulario = ({guardarGasto, guardarCrearGasto}) => {
     )
 };
 
-Formulario.PropTypes = {
+Formulario.propTypes = {
     guardarGasto : PropTypes.func.isRequired,
     guardarCrearGasto: PropTypes.func.isRequired
 }
